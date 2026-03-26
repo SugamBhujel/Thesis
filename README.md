@@ -2,13 +2,13 @@
 ### Structural Imbalance, Algorithmic Amplification, and Model-Agnostic Mitigation
 
 ##  Overview
-This repository contains the implementation and experimental analysis for my MSc thesis on **popularity bias in recommender systems**, using the MovieLens 32M dataset.
+This repository contains the implementation and experimental analysis for my MSc disertation on **popularity bias in recommender systems**, using the MovieLens 32M dataset.
 
 The study investigates:
-- Structural imbalance in real-world recommendation datasets
+- Structural imbalance in real world recommendation datasets
 - Whether collaborative filtering models amplify popularity bias
 - A model-agnostic reranking strategy to mitigate bias
-- The trade-off between fairness and recommendation accuracy
+- The trade off between fairness and recommendation accuracy
 - Mechanism-level changes using correlation and explainability analysis
 
 ---
@@ -17,14 +17,14 @@ The study investigates:
 
 - **RQ1:** Does matrix factorization amplify structural popularity bias?  
 - **RQ2:** Can a model-agnostic reranking method control item exposure?  
-- **RQ3:** What is the fairness–utility trade-off when applying mitigation?  
+- **RQ3:** What is the fairness–utility trade off when applying mitigation?  
 - **RQ4:** Does mitigation change how ranking decisions are made?  
 
 ---
 
 ##  Dataset
 
-- **Dataset:** MovieLens 32M  
+- **Dataset:** MovieLens 32M (https://grouplens.org/datasets/movielens/) 
 - **Type:** Explicit ratings (1–5)  
 - **Preprocessing:**
   - Users with ≥ 20 ratings  
@@ -46,7 +46,7 @@ The study investigates:
 ### 2. Models
 
 #### 2.1 MostPopular (Baseline)
-- Non-personalized
+- Non personalized
 - Ranks items purely by global popularity
 
 #### 2.2 Matrix Factorization (MF)
