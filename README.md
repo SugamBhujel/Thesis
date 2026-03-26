@@ -1,7 +1,7 @@
 # Popularity Bias in Recommender Systems  
 ### Structural Imbalance, Algorithmic Amplification, and Model-Agnostic Mitigation
 
-## 📌 Overview
+##  Overview
 This repository contains the implementation and experimental analysis for my MSc thesis on **popularity bias in recommender systems**, using the MovieLens 32M dataset.
 
 The study investigates:
@@ -13,7 +13,7 @@ The study investigates:
 
 ---
 
-## 🎯 Research Questions
+##  Research Questions
 
 - **RQ1:** Does matrix factorization amplify structural popularity bias?  
 - **RQ2:** Can a model-agnostic reranking method control item exposure?  
@@ -22,7 +22,7 @@ The study investigates:
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 - **Dataset:** MovieLens 32M  
 - **Type:** Explicit ratings (1–5)  
@@ -33,7 +33,7 @@ The study investigates:
 
 ---
 
-## ⚙️ Methodology
+##  Methodology
 
 ### 1. Structural Baseline
 - Item popularity computed from training data
@@ -101,7 +101,7 @@ Score(u,i) = Score_{MF}(u,i) - \lambda \cdot Penalty(i)
 
 ---
 
-## 📈 Key Findings
+##  Key Findings
 
 - The dataset is **highly imbalanced**  
   - ~96% of interactions belong to top 20% of items  
