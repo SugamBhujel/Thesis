@@ -34,10 +34,3 @@ jupyter notebook Thesis_on_Popularity_Bias.ipynb
 - Python 3.x
 - Jupyter Notebook or Google Colab
 
-## Key Results (Optional)
-- Dataset is highly imbalanced (~96% head interactions)
-- Matrix factorization reduces popularity bias
-- Reranking controls fairness–accuracy trade-off
-
-## Author
-Sugam Bhujel
