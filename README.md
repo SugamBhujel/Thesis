@@ -45,11 +45,11 @@ The study investigates:
 
 ### 2. Models
 
-#### ✔ MostPopular (Baseline)
+#### 2.1 MostPopular (Baseline)
 - Non-personalized
 - Ranks items purely by global popularity
 
-#### ✔ Matrix Factorization (MF)
+#### 2.2 Matrix Factorization (MF)
 Prediction:
 
 \[
@@ -121,6 +121,3 @@ Score(u,i) = Score_{MF}(u,i) - \lambda \cdot Penalty(i)
 - **Important insight**
   - Reducing head share ≠ reducing inequality (Gini remains high)
 
----
-
-## 📁 Repository Structure
